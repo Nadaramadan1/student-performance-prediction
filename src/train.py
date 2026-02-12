@@ -32,7 +32,12 @@ def train():
         mlflow.log_metric("r2_score", r2)
 
         # Log the model to MLflow
-        mlflow.sklearn.log_model(model, "model")
+        mlflow.sklearn.log_model(
+            model,
+            "model",
+            registered_model_name="StudentPerformanceModel"
+        )
+
 
         # Create models directory if it doesn't exist
         if not os.path.exists("models"):

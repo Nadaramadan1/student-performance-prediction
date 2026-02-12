@@ -5,3 +5,8 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
+fastapi
+uvicorn
+joblib
+python-multipart
+mlflow

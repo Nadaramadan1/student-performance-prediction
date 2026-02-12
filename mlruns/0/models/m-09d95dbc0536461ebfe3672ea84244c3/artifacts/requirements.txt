@@ -5,4 +5,4 @@ pandas==2.3.3
 psutil==7.2.2
 pyarrow==22.0.0
 scikit-learn==1.8.0
-scipy==1.17.0th
+scipy==1.17.0

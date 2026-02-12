@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Nada/source/repos/student performance prediction/student-performance-prediction/mlruns/0/models/m-09d95dbc0536461ebfe3672ea84244c3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-09d95dbc0536461ebfe3672ea84244c3
+model_size_bytes: 726
+model_uuid: m-09d95dbc0536461ebfe3672ea84244c3
+prompts: null
+run_id: 5965381676f14558b67988dfd88bb326
+utc_time_created: '2026-02-12 21:00:01.955478'
